@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root {
+    --main-bg-color: #161a1f;;
+}
+
+* {
+    background-color: var(--main-bg-color);
+}
+
 body,
 html {
     margin:0;
     padding:0;
     color:#000;
-    background-image: url(https://img.freepik.com/premium-photo/metal-background-3d-rendering_118019-269.jpg);
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
 }
 #wrap {
     width:1000px;
     height: 680px;
     position: relative;
     margin: 20px auto;
-    background:#ffffff;
+    background-color: var(--main-bg-color);
     /*border: 5px outset #bbb;*/
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -177,3 +186,12 @@ html {
 }
 
 H1 { text-align: center }
+
+.logo-container-text {
+    padding-top:4.5%;
+    color:white;
+    font-size: 15pt;
+    font-family: raleway, sans-serif;
+    float:right;
+    margin-left:1em;
+}
