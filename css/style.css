@@ -12,8 +12,13 @@ html {
     margin:0;
     padding:0;
     color:#000;
-    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
 }
+
+html,body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8324.png);
+    background-repeat: inherit;
+}
+
 #wrap {
     width:1000px;
     height: 680px;
